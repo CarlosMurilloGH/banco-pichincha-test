@@ -1,0 +1,100 @@
+.DashboardBox{
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+.DashboardContainer{
+    margin-left: auto;
+    margin-right: auto;
+}
+.searchBarAndButtonContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Tabla*/
+.TableContainer{
+    margin-top: 1rem;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+  td {
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.headertable{
+    font-weight: bold;
+}
+
+.nuevoPokemonForm{
+    border:1px solid black;
+    padding:1rem;
+    margin-top: 2rem;
+}
+
+.nuevoPokemonForm .tituloForm{
+    text-align: center;
+}
+
+.FilaInputs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rangeContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.buttonsContainer{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Icono dentro de input */
+.search-container {
+    display: flex;
+    align-items: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+  }
+  
+  .search-container input {
+    flex: 1;
+    padding: 5px;
+    font-size: 14px;
+    border: none;
+    outline: none;
+  }
+  
+  .search-container .fa-icon {
+    margin-left: 5px;
+  }
+
+.infoContainer{
+display: flex;
+}
+
+.infoInput{
+    display: flex;
+    margin-left: 5px;
+    padding:0.1rem 1.5rem!important;
+    border-radius: 5px;
+    border:1px solid gray;
+}
+
+.FilaInputs{
+    margin-bottom: 1rem;
+}
